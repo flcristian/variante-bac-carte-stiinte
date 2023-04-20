@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Variante">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Variante\Varianta 1">
+      <UniqueIdentifier>{6db3c814-e6a9-4daf-9f96-2c1f6774faa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 2">
+      <UniqueIdentifier>{05d003e9-7706-4cbb-9919-ca7a1b58a782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Variante\Varianta 3">
+      <UniqueIdentifier>{d2b6e109-e171-4dca-b7ab-42ed25651b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 4">
+      <UniqueIdentifier>{d420d39e-f839-403f-ab8c-13090128f680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 5">
+      <UniqueIdentifier>{ad4807fc-0d3d-45f7-8683-1441968e3dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 6">
+      <UniqueIdentifier>{6cc430f8-9696-4e47-97ec-e48459fd3b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 7">
+      <UniqueIdentifier>{1eddfd40-2528-4547-8dc9-b716a168de05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 8">
+      <UniqueIdentifier>{78b1a53c-4efa-4bf4-af3a-77fa58d2e9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 9">
+      <UniqueIdentifier>{a0c7f1a8-6b9f-4c87-9649-7404f9cf4ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Variante\Varianta 10">
+      <UniqueIdentifier>{4997d0fc-6912-4144-a26b-bab2136ea881}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="variante-bac-carte-stiinte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="varianta-1.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1-functii.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1-structuri.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-1-permutare-subiectul-1.h">
+      <Filter>Variante\Varianta 1</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-2-functii.h">
+      <Filter>Variante\Varianta 2</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-functii.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-structuri.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-3-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 3</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4-functii.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-4-structuri.h">
+      <Filter>Variante\Varianta 4</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5-functii.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-5-structuri.h">
+      <Filter>Variante\Varianta 5</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-functii.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-structuri.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-6-permutare-subiectul-1.h">
+      <Filter>Variante\Varianta 6</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-functii.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-structuri.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-7-combinare-structuri-subiectul-1.h">
+      <Filter>Variante\Varianta 7</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-functii.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-structuri.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-8-combinare-subiectul-1.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9.h">
+      <Filter>Variante\Varianta 9</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9-functii.h">
+      <Filter>Variante\Varianta 9</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-9-structuri.h">
+      <Filter>Variante\Varianta 9</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-10.h">
+      <Filter>Variante\Varianta 10</Filter>
+    </ClInclude>
+    <ClInclude Include="varianta-10-functii.h">
+      <Filter>Variante\Varianta 10</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>Input</Filter>
+    </Text>
+    <Text Include="varianta-8-combinare-structuri-subiectul-1.h">
+      <Filter>Variante\Varianta 8</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
