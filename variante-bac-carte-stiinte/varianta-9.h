@@ -24,6 +24,41 @@ void subiectul2Problema2() {
 // Subiectul III
 // =============
 
+// Problema 1
+// Scrieti un program care citeste un numar natural n,
+// avand cel putin 8 cifre si afiseaza doua numere
+// naturale m si t, unde m reprezinta cel mai apropiat
+// termen din sirul lui Fibonacci mai mic decat n si t
+// reprezinta cel mai apropiat termen din sirul lui
+// Fibonacci mai mare decat n.
+
+void subiectul3Problema1() {
+	int n, m, t;
+	cout << "Introduceti n : ";
+	cin >> n;
+
+	rezolvareSubiectul3Problema1(n, m, t);
+	cout << m << " " << t << endl;
+}
+
+// Problema 2
+// Se citeste un vector de elemente.
+// Scrieti numarul de perechi de elemente (nu neaparat consecutive)
+// prime intre ele.
+
+void subiectul3Problema2() {
+	int x[100], n;
+	cout << "Introduceti n : ";
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cout << "Introduceti x[" << i << "] : ";
+		cin >> x[i];
+	}
+	cout << endl;
+
+	cout << numarPerechi(x, n) << endl;
+}
+
 // Problema 3
 // Fisierul bac.txt (varianta9subiectul3problema3.txt)
 // care contine :

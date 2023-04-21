@@ -42,6 +42,25 @@ void subiectul2Problema2() {
 // Subiectul III
 // =============
 
+// Problema 1
+// Scrieti un program care citeste un numar natural n
+// si n numere naturale distincte.
+// Afisati numarul de perechi de numere consecutive,
+// cu proprietatea ca sunt oglindite.
+
+void subiectul3Problema1() {
+	int x[100], n;
+	cout << "Introduceti n : ";
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cout << "Introduceti x[" << i << "] : ";
+		cin >> x[i];
+	}
+	cout << endl;
+
+	cout << numarPerechi(x, n) << endl;
+}
+
 // Problema 2
 // Subprogramul patrat are un parametru
 // n natural [2, 10^9].

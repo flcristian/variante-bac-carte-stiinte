@@ -43,6 +43,19 @@ void subiectul2Problema2() {
 // Subiectul III
 // =============
 
+// Problema 1
+// Sa se determine valoarea unei pozitii
+// din sirul:
+// 1 2 3 2 1 2 3 4 5 6 5 4 3 2 1 2 3 4 5 6 7 8 9 . . .
+
+void subiectul3Problema1() {
+	int n;
+	cout << "Introduceti n : ";
+	cin >> n;
+
+	cout << pozitieSir(n) << endl;
+}
+
 // Problema 2
 // Subprogramul permuta are trei parametri :
 // n, natural [2, 100]

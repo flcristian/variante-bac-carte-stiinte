@@ -46,6 +46,30 @@ void subiectul2Problema2() {
 // Subiectul III
 // =============
 
+// Problema 1
+// Scrieti un program care citeste de la tastatura doua numere naturale
+// a si b, care au cel mult 9 cifre. Determina si afiseaza cel mai mic numar
+// de permutari circulare la dreapta cu cate o pozitie, ale cifrelor lui a,
+// incat sa se obtina numarul b.
+// Daca nu e posibil, se va afisa Imposibil.
+
+void subiectul3Problema1() {
+	int a, b;
+	cout << "Introduceti a : ";
+	cin >> a;
+	cout << "Introduceti b : ";
+	cin >> b;
+
+	int k = permutari(a, b);
+	if (k == -1) {
+		cout << "Imposibil.";
+	}
+	else {
+		cout << k;
+	}
+	cout << endl;
+}
+
 // Problema 2
 // Subprogramul divizor are doi parametri,
 // n, natural [2, 100]

@@ -6,6 +6,39 @@ using namespace std;
 
 // Pentru Subiectul 3
 
+// Problema 2
+
+void permutareStanga(int x[], int n) {
+	int r = x[0];
+	for (int i = 0; i < n - 1; i++) {
+		x[i] = x[i + 1];
+	}
+	x[n - 1] = r;
+}
+
+bool estePalindrom(int x[], int n) {
+	for (int i = 0, j = n - 1; i < n / 2; i++, j--) {
+		if (x[i] != x[j]) {
+			return 0;
+		}
+	}
+	return 1;
+}
+
+void rezolvareSubiectul3Problema2(int x[], int n, int k) {
+	while (k > 0) {
+		permutareStanga(x, n);
+		k--;
+	}
+
+	if (estePalindrom(x, n)) {
+		cout << "Este k-palindrom!" << endl;
+	}
+	else {
+		cout << "Nu este k-palindrom!" << endl;
+	}
+}
+
 // Problema 3
 
 void citireSub3Pb3(int x[], int& n) {

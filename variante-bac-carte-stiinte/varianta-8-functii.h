@@ -23,6 +23,34 @@ bool isoscel(Triunghi t) {
 
 // Pentru Subiectul 3
 
+// Problema 1
+
+int oglindit(int n) {
+	int r = 0;
+	while (n > 0) {
+		r = r * 10 + n % 10;
+		n /= 10;
+	}
+	return r;
+}
+
+bool esteOglindit(int n, int m) {
+	if (n == oglindit(m)) {
+		return 1;
+	}
+	return 0;
+}
+
+int numarPerechi(int x[], int n) {
+	int c = 0;
+	for (int i = 1; i < n; i++) {
+		if (esteOglindit(x[i], x[i - 1])) {
+			c++;
+		}
+	}
+	return c;
+}
+
 // Problema 2
 
 bool patratPerfect(int x) {

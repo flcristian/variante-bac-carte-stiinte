@@ -32,6 +32,58 @@ void rezolvareSub2Pb2(Magazin M) {
 
 // Pentru Subiectul 3
 
+// Problema 1
+
+int rezolvareSubiectul3Problema1(int n, int& m, int& t) {
+	int x[100], d = 2;
+	x[0] = 1, x[1] = 2;
+	while (x[d - 1] <= n) {
+		x[d] = x[d - 1] + x[d - 2];
+		d++;
+	}
+	
+	for (int i = 0; i < d; i++) {
+		if (x[i] == n) {
+			m = x[i - 1];
+			t = x[i + 1];
+			return 0;
+		} 
+		else if (x[i] > n) {
+			m = x[i - 1];
+			t = x[i];
+			return 0;
+		}
+	}
+	return 0;
+}
+
+// Problema 2
+
+bool primeIntreEle(int n, int m) {
+	int c = 0;
+	for (int i = 1; i <= n && i <= m; i++) {
+		if (n % i == 0 && m % i == 0) {
+			c++;
+		}
+	}
+	if (c == 1) {
+		return 1;
+	}
+	return 0;
+}
+
+int numarPerechi(int x[], int n) {
+	int c = 0;
+	for (int i = 0; i < n - 1; i++) {
+		for (int j = i + 1; j < n; j++) {
+			if (primeIntreEle(x[i], x[j])) {
+				c++;
+			}
+		}
+	}
+	return c;
+}
+
 // Problema 3
 
 void citireSub3Pb3(int x[], int& n) {
