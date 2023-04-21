@@ -1,5 +1,2 @@
 ﻿  variante-bac-carte-stiinte.cpp
-D:\mycode\variante\variante-bac-carte-stiinte\variante-bac-carte-stiinte\varianta-5-functii.h(39,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-D:\mycode\variante\variante-bac-carte-stiinte\variante-bac-carte-stiinte\varianta-5.h(26,14): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\mycode\variante\variante-bac-carte-stiinte\variante-bac-carte-stiinte\varianta-5.h(28,13): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
   variante-bac-carte-stiinte.vcxproj -> D:\mycode\variante\variante-bac-carte-stiinte\x64\Debug\variante-bac-carte-stiinte.exe

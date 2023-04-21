@@ -26,6 +26,40 @@ bool seAflaPePrimaBisectoare(Punct A, Punct B) {
 
 // Pentru Subiectul 3
 
+// Problema 1
+
+int countCifre(int n) {
+	int c = 0;
+	while (n > 0) {
+		c++;
+		n /= 10;
+	}
+	return c;
+}
+
+void permutareNumar(int& n, int c) {
+	int r = n % 10;
+	n = n / 10;
+	n = r * pow(10, c - 1) + n;
+}
+
+int permutari(int a, int b) {
+	int ca = countCifre(a);
+	int cb = countCifre(b);
+
+	if (ca == cb) {
+		int c = 0;
+		while (c < cb) {
+			if (a == b) {
+				return c;
+			}
+			permutareNumar(a, ca);
+			c++;
+		}
+	}
+	return -1;
+}
+
 // Problema 2
 
 void citireSub3Pb2(int a[], int& n) {

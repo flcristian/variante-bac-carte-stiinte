@@ -26,6 +26,32 @@ bool seAflaPeAxe(Punct A, Punct B) {
 
 // Pentru Subiectul 3
 
+// Problema 1
+
+int pozitieSir(int n) {
+	int x[100], d = 1, c = 3;
+	x[0] = 1;
+	int k = 1;
+	while (d < n) {
+		if (k == 1) {
+			x[d] = x[d - 1] + 1;
+		}
+		else {
+			x[d] = x[d - 1] - 1;
+		}
+
+		if (x[d] == 1) {
+			k = (k + 1) % 2;
+		}
+		if (x[d] == c) {
+			k = (k + 1) % 2;
+			c += 3;
+		}
+		d++;
+	}
+	return x[d - 1];
+}
+
 // Problema 2
 
 void citireSub3Pb2(int a[], int& n, int& k) {
